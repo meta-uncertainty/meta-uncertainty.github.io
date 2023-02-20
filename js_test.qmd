@@ -9,7 +9,7 @@ page-layout: custom
 <div class="hero-wrapper">
   <div class="hero-title">
   <h1>Meta-Uncertainty</h1>
-  </div>
+  </div>      
   <div class="hero-image">
   <span id="debug-text"></span>
     <div id="mixture-canvas" style="min-height: 500px;">
@@ -18,6 +18,11 @@ page-layout: custom
       <img src="images/triangle_3.png" id="triangle-3"/>
       <div id="pmp-obs"></div>
     </div>
+  </div>
+  <div style="width:60%; align-content:center">
+  M1: <img src="images/triangle_1.png" style="width: 25%; margin-right: 30px"/>
+  M2: <img src="images/triangle_2.png"  style="width: 25%; margin-right: 30px"/>
+  M3: <img src="images/triangle_3.png"  style="width: 25%; margin-right: 30px"/>
   </div>
   <div class="hero-description">
   <p>

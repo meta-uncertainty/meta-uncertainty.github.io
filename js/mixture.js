@@ -1,6 +1,6 @@
 //var canvas = $('#mixture_canvas');
 //var context = canvas.getContext('2d');
-
+const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
 
 
 $('html').mousemove(function(e){
@@ -10,6 +10,9 @@ $('html').mousemove(function(e){
 		
 		var x = (e.pageX - $('#triangle-1').offset().left) / $('#triangle-1').width();
 		var y = 1 - (e.pageY - $('#triangle-1').offset().top) / $('#triangle-1').height();
+		
+		x = clamp(x, 0, 1);
+		y = clamp(y, 0, 1);
 		
 		var x1 = 0;
 		var x2 = 1;
@@ -23,6 +26,11 @@ $('html').mousemove(function(e){
 		var pi_2 = ((y3-y1)*(x-x3) + (x1-x3)*(y-y3)) / (((y2-y3)*(x1-x3)) + ((x3-x2)*(y1-y3)));
 		var pi_3 = 1-pi_1-pi_2;
 		
+		pi_1 = clamp(pi_1, 0, 1);
+		pi_2 = clamp(pi_2, 0, 1);
+		pi_3 = clamp(pi_3, 0, 1);
+		
+		
 		$('#triangle-1').css("opacity", pi_1);
 		$('#triangle-2').css("opacity", pi_2);
 		$('#triangle-3').css("opacity", pi_3);
@@ -34,5 +42,5 @@ $('html').mousemove(function(e){
     $('#pmp-obs').css("top", pmp_top_px);
     
 		
-		// $('#debug-text').text("x:" + x.toFixed(2) + ", y:" + y.toFixed(2) + " ||| pi_1:" + pi_1.toFixed(2) + ", pi_2:" + pi_2.toFixed(2) + ", pi_3:" + pi_3.toFixed(2));
+		$('#debug-text').text("pmp1 = " + pi_1.toFixed(2) + "  |  pmp2 = " + pi_2.toFixed(2) + "  |  pmp3 = " + pi_3.toFixed(2));
 	});
