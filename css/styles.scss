@@ -39,6 +39,12 @@
 
 .hero-description p {
   font-weight:250;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.hero-description{
+  align-content: center;
 }
 
 .link-section{
@@ -68,4 +74,37 @@ footer a{
 footer a:hover{
   color: orange;
   text-decoration: none; 
+}
+
+#mixture-canvas {
+  // border: 2px solid black;
+  position: relative;
+  align-items: center;
+  isolation: isolate;
+}
+
+#mixture-canvas img{
+  position: absolute;
+  mix-blend-mode: screen;
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  top: 0;
+  aspect-ratio: 1.0;
+  z-index:5;
+}
+
+#pmp-obs {
+  z-index: 10;
+  position:absolute;
+  transform:translate(-50%,-50%);
+  height:20px;
+  width:20px;
+  border-radius:50%;
+  border:2px solid black;
+  background:pink;
 }
