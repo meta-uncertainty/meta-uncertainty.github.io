@@ -16,7 +16,7 @@ website:
   repo-url: "https://meta-uncertainty.github.io"
   repo-branch: main
   
-  favicon: images/favicon.ico
+  favicon: "images/favicon.png"
 
 execute:
   freeze: true
