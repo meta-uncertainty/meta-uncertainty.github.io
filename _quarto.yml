@@ -17,6 +17,7 @@ website:
   repo-branch: main
   
   favicon: "images/favicon.png"
+  image: "images/preview_thumbnail.png"
 
 execute:
   freeze: true
