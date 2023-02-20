@@ -42,5 +42,5 @@ $('html').mousemove(function(e){
     $('#pmp-obs').css("top", pmp_top_px);
     
 		
-		$('#debug-text').text("pmp1 = " + pi_1.toFixed(2) + "  |  pmp2 = " + pi_2.toFixed(2) + "  |  pmp3 = " + pi_3.toFixed(2));
+		$('#debug-text').text("Observed PMPs: (" + pi_1.toFixed(2) + ", " + pi_2.toFixed(2) + ", " + pi_3.toFixed(2) +")");
 	});
