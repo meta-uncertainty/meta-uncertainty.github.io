@@ -1,0 +1,56 @@
+---
+title: ""
+page-layout: custom
+
+---
+
+
+```{=html}
+<link rel="stylesheet" href="css/styles.scss">
+
+<div class="hero-wrapper">
+  <div class="hero-title">
+  <h1>Meta-Uncertainty</h1>
+  </div>
+  <div class="hero-image">
+    <img src="images/meta-uncertainty-banner.png">
+  <div class="hero-description">
+  <p>
+    Meta-Uncertainty represents a fully probabilistic framework for quantifying the uncertainty over Bayesian posterior model probabilities (PMPs) using meta-models. Meta-models integrate simulated and observed data into a predictive distribution for new PMPs and help reduce overconfidence and estimate the PMPs in future replication studies.
+  </p>
+  </div>
+</div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/mixture.js"></script>
+```
+
+:::{.grid .link-section}
+
+::: {.g-col-12 .g-col-md-4 .d-flex .flex-column .align-items-center}
+
+# Code
+
+{{< fa brands github size="4x">}}
+
+<a href="https://github.com/marvinschmitt/MetaUncertaintyPaper" target="_blank" class="btn btn-outline-dark" role="button">View the source code</a>
+:::
+
+::: {.g-col-12 .g-col-md-4 .d-flex .flex-column .align-items-center}
+# Publication
+
+{{< fa book-open size="4x">}}
+
+<a href="https://arxiv.org/abs/2210.07278" target="_blank" class="btn btn-outline-dark" role="button">Read the AISTATS 2023 paper</a>
+:::
+
+::: {.g-col-12 .g-col-md-4 .d-flex .flex-column .align-items-center}
+# Visualization
+
+{{< fa palette size="4x">}}
+
+<a href="https://www.marvinschmitt.com/blog/ggsimplex-prerelease/" target="_blank" class="btn btn-outline-dark" role="button">Create simplex plots</a>
+:::
+
+:::

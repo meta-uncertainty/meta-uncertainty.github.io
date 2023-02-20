@@ -1,0 +1,13 @@
+project:
+  type: website
+  title: "Meta-Uncertainty"
+  
+  preview: 
+    port: 33333
+    browser: true
+    watch-inputs: true
+    navigate: true
+    
+website:
+  description: "Meta-Uncertainty represents a fully probabilistic framework for quantifying the uncertainty over Bayesian posterior model probabilities (PMPs) using meta-models. Meta-models integrate simulated and observed data into a predictive distribution for new PMPs and help reduce overconfidence and estimate the PMPs in future replication studies."
+  site-url: "https://meta-uncertainty.github.io"

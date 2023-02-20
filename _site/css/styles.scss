@@ -1,0 +1,45 @@
+/*-- scss:defaults --*/
+
+
+/*-- scss:rules --*/
+
+.hero-wrapper{
+  text-align: center;
+  padding-top:20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 20px;
+  
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-center;
+  flex-direction: column;
+  margin: auto;
+}
+
+
+.hero-title h1 {
+  font-size: calc(1.545rem + 3.14vw);
+  font-weight: 600;
+  margin-bottom: 4rem;
+}
+
+.hero-image img {
+  margin-bottom: 4rem;
+  width: 60%;
+}
+
+.hero-description p {
+  font-weight:250;
+}
+
+.link-section{
+  background: #EEE;
+  padding-top:4rem;
+  padding-bottom: 3rem;
+  position:relative;
+  width:100%;
+  bottom:0px;
+}
+
