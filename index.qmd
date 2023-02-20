@@ -1,13 +1,13 @@
 ---
 title: ""
 page-layout: custom
-
+format:
+  html:
+    css: css/styles.scss
 ---
 
 
 ```{=html}
-<link rel="stylesheet" href="css/styles.scss">
-
 <div class="page-wrapper">
 <div class="hero-wrapper">
   <div class="hero-title">
