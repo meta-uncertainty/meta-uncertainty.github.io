@@ -1,9 +1,6 @@
 ---
 title: ""
 page-layout: custom
-format:
-  html:
-    css: css/styles.scss
 ---
 
 

@@ -20,4 +20,10 @@ website:
 
 execute:
   freeze: true
+  
+format:
+  html:
+    theme: 
+      - flatly
+      - /css/styles.scss
 
