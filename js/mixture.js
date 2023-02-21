@@ -24,10 +24,11 @@ $('html').mousemove(function(e){
 		
 		var pi_1 = ((y2-y3)*(x-x3) + (x3-x2)*(y-y3)) / (((y2-y3)*(x1-x3)) + ((x3-x2)*(y1-y3)));
 		var pi_2 = ((y3-y1)*(x-x3) + (x1-x3)*(y-y3)) / (((y2-y3)*(x1-x3)) + ((x3-x2)*(y1-y3)));
-		var pi_3 = 1-pi_1-pi_2;
 		
 		pi_1 = clamp(pi_1, 0, 1);
 		pi_2 = clamp(pi_2, 0, 1);
+		
+		var pi_3 = 1-pi_1-pi_2;
 		pi_3 = clamp(pi_3, 0, 1);
 		
 		
