@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
   title: "Meta-Uncertainty"
+  resources:
+    - "images/**"
+    - "sitemap.xml"
   
   preview: 
     port: 33333
@@ -17,6 +20,7 @@ website:
   image: images/preview_thumbnail.png
 
   twitter-card: 
+    image: images/preview_thumbnail.png
     creator: "@MarvinSchmittML"  
   open-graph: 
     image: images/preview_thumbnail.png
