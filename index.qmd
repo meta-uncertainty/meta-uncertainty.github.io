@@ -51,7 +51,11 @@ page-layout: custom
 
 :::
 
-
+:::{.video-block}
+{{< video https://www.youtube.com/embed/WIigoUaqy9c 
+    title="Meta-Uncertainty in Bayesian Model Comparison (AISTATS 2023)"
+    aspect-ratio="16x9" >}}
+:::
 
 ```{=html}
 <footer>
