@@ -1,6 +1,9 @@
 ---
 title: ""
 page-layout: custom
+engine: knitr
+poster:
+  pdf: "../images/meta_uncertainty_poster_aistats.pdf"
 ---
 
 
@@ -38,7 +41,7 @@ page-layout: custom
 
 {{< fa book-open size="4x">}}
 
-<a href="https://arxiv.org/abs/2210.07278" target="_blank" class="btn btn-outline-dark" role="button">Read the AISTATS 2023 paper</a>
+<a href="https://proceedings.mlr.press/v206/schmitt23a.html" target="_blank" class="btn btn-outline-dark" role="button">Read the AISTATS 2023 paper</a>
 :::
 
 ::: {.g-col-12 .g-col-md-4 .d-flex .flex-column .align-items-center}
@@ -51,11 +54,33 @@ page-layout: custom
 
 :::
 
-:::{.video-block}
+:::{.grid}
+
+:::{.g-col-12 .g-col-md-8 .d-flex .flex-column .align-items-center .video-block}
+
 {{< video https://www.youtube.com/embed/WIigoUaqy9c 
     title="Meta-Uncertainty in Bayesian Model Comparison (AISTATS 2023)"
     aspect-ratio="16x9" >}}
+
 :::
+
+:::{.g-col-12 .g-col-md-4 .d-flex .flex-column}
+
+```{=html}
+<div class="embed-container" style="margin:0px 10px 0px 0px">
+  <iframe src="`r rmarkdown::metadata$poster$pdf`" style="border: 0.5px"></iframe>
+</div>
+```
+
+:::
+
+:::
+
+
+
+
+
+
 
 ```{=html}
 <footer>

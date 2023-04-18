@@ -1,0 +1,14 @@
+{
+  "hash": "ae2a8144fef26d1c9fa33b2666f08cb7",
+  "result": {
+    "markdown": "---\ntitle: \"\"\npage-layout: custom\nengine: knitr\nposter:\n  pdf: \"../images/meta_uncertainty_poster_aistats.pdf\"\n---\n\n```{=html}\n<div class=\"page-wrapper\">\n    <div class=\"hero-wrapper\">\n        <div class=\"hero-title\">\n            <h1>Meta-Uncertainty</h1>\n        </div>\n        <div class=\"hero-image\">\n            <img src=\"images/meta-uncertainty-banner.png\">\n        </div>\n        <div class=\"hero-description\">\n            <p>\n                Meta-Uncertainty represents a fully probabilistic framework for quantifying the uncertainty over Bayesian posterior model probabilities (PMPs) using meta-models. Meta-models integrate simulated and observed data into a predictive distribution for new PMPs and help reduce overconfidence and estimate the PMPs in future replication studies.\n            </p>\n        </div>\n    </div>\n</div>\n```\n\n\n:::{.grid .link-section}\n\n::: {.g-col-12 .g-col-md-4 .d-flex .flex-column .align-items-center}\n\n# Code\n\n{{< fa brands github size=\"4x\">}}\n\n<a href=\"https://github.com/marvinschmitt/MetaUncertaintyPaper\" target=\"_blank\" class=\"btn btn-outline-dark\" role=\"button\">View the source code</a>\n:::\n\n::: {.g-col-12 .g-col-md-4 .d-flex .flex-column .align-items-center}\n# Publication\n\n{{< fa book-open size=\"4x\">}}\n\n<a href=\"https://proceedings.mlr.press/v206/schmitt23a.html\" target=\"_blank\" class=\"btn btn-outline-dark\" role=\"button\">Read the AISTATS 2023 paper</a>\n:::\n\n::: {.g-col-12 .g-col-md-4 .d-flex .flex-column .align-items-center}\n# Visualization\n\n{{< fa palette size=\"4x\">}}\n\n<a href=\"https://www.marvinschmitt.com/blog/ggsimplex-prerelease/\" target=\"_blank\" class=\"btn btn-outline-dark\" role=\"button\">Create simplex plots</a>\n:::\n\n:::\n\n:::{.grid}\n\n:::{.g-col-12 .g-col-md-8 .d-flex .flex-column .align-items-center .video-block}\n\n{{< video https://www.youtube.com/embed/WIigoUaqy9c \n    title=\"Meta-Uncertainty in Bayesian Model Comparison (AISTATS 2023)\"\n    aspect-ratio=\"16x9\" >}}\n\n:::\n\n:::{.g-col-12 .g-col-md-4 .d-flex .flex-column}\n\n\n```{=html}\n<div class=\"embed-container\" style=\"margin:0px 10px 0px 0px\">\n  <iframe src=\"../images/meta_uncertainty_poster_aistats.pdf\" style=\"border: 0.5px\"></iframe>\n</div>\n```\n\n\n:::\n\n:::\n\n\n\n\n\n\n\n\n```{=html}\n<footer>\n<span class=\"footer-left\">\n  <i class=\"fa-brands fa-creative-commons\"></i> 2023 Marvin Schmitt, Stefan T. Radev, Paul-Christian Bürkner\n</span>\n<span class=\"footer-right\">\n  <a href=\"https://github.com/meta-uncertainty/meta-uncertainty.github.io\"><i class=\"fa-brands fa-github\"></i> Page Source</a>\n</span>\n</footer>\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
